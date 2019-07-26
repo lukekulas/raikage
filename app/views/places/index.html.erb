@@ -5,4 +5,11 @@
     <p><%= place.description %></p><br />
   </div>
 
-<% end %>  
+
+
+<% end %> 
+
+<div class="apple_pagination">
+
+  <%= will_paginate @places, previous_label: "Older", next_label: "Newer", inner_window: 1, outer_window: 0 %>
+</div>
