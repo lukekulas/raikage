@@ -75,3 +75,5 @@ gem 'will_paginate', '~> 3.1.0'
 gem 'kaminari'
 
 gem 'simple_form'
+
+gem "font-awesome-rails"
